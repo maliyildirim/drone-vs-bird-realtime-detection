@@ -1,4 +1,5 @@
 <div align="center">
+
 # Real-Time Drone vs Bird Two-Stage Detection Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
