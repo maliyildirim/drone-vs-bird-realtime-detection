@@ -323,15 +323,15 @@ The classifier achieved strong recall for both drone and bird classes. The backg
 ## Sample Outputs
 
 <p align="center">
-  <img src="assets/sample_outputs/sample_01.png" alt="Sample output 1" width="750"/>
+  <img src="assets/sample_outputs/sample_01.jpg" alt="Sample output 1" width="750"/>
 </p>
 
 <p align="center">
-  <img src="assets/sample_outputs/sample_02.png" alt="Sample output 2" width="750"/>
+  <img src="assets/sample_outputs/sample_02.jpg" alt="Sample output 2" width="750"/>
 </p>
 
 <p align="center">
-  <img src="assets/sample_outputs/sample_03.png" alt="Sample output 3" width="750"/>
+  <img src="assets/sample_outputs/sample_03.jpg" alt="Sample output 3" width="750"/>
 </p>
 
 ---
