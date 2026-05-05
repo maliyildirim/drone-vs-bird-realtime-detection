@@ -1,3 +1,4 @@
+<div align="center">
 # Real-Time Drone vs Bird Two-Stage Detection Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -6,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 A real-time computer vision pipeline for **rotary-wing drone vs bird discrimination** using a two-stage YOLO-based architecture.
-
+</div>
 <p align="center">
   <img src="assets/demo.gif" alt="Drone vs Bird real-time demo" width="900"/>
 </p>
