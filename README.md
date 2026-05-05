@@ -15,10 +15,6 @@ A real-time computer vision pipeline for **rotary-wing drone vs bird discriminat
   <b>Real-time drone/bird detection, crop-based classification, background rejection, and GUI-based video inference.</b>
 </p>
 
-<p align="center">
-  <img src="assets/pipeline_overview.png" alt="Two-stage drone vs bird pipeline" width="850"/>
-</p>
-
 
 A real-time computer vision pipeline for **rotary-wing drone vs bird discrimination** using a two-stage YOLO-based architecture.
 
