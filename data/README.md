@@ -47,6 +47,8 @@ The detector and classifier datasets are not distributed with this repository. T
 
 ## Detector Dataset
 
+The dataset statistics reported in this repository refer to the curated project-specific subset and splits used in this work. They do not represent the full WOSDETC dataset.
+
 The detector dataset was prepared as a single-class object detection dataset.
 
 Instead of directly separating drones and birds at the detection stage, both object types were represented as a generic flying target. This allows the detector to focus on candidate target localization, while the final drone / bird / background decision is handled by the second-stage classifier.
@@ -56,6 +58,7 @@ Instead of directly separating drones and birds at the detection stage, both obj
 ```text
 0: target
 ```
+
 
 ### Split Summary
 
