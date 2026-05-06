@@ -626,7 +626,7 @@ gui:
 ## Project Structure
 
 ```text
-drone-vs-bird-two-stage-detection/
+drone-vs-bird-realtime-detection/
 │
 ├── README.md
 ├── LICENSE
@@ -634,6 +634,7 @@ drone-vs-bird-two-stage-detection/
 ├── requirements.txt
 │
 ├── assets/
+│   ├── demo.gif
 │   ├── pipeline_overview.png
 │   ├── system_architecture.png
 │   ├── background_rejection.png
@@ -643,58 +644,32 @@ drone-vs-bird-two-stage-detection/
 │   ├── gui_screenshot.png
 │   ├── tensorrt_comparison.png
 │   └── sample_outputs/
+│       ├── sample_01.jpg
+│       ├── sample_02.jpg
+│       └── sample_03.jpg
 │
 ├── configs/
-│   ├── detector.yaml
-│   ├── classifier.yaml
 │   └── gui_config.yaml
-│
-├── docs/
-│   ├── methodology.md
-│   ├── dataset.md
-│   ├── training.md
-│   ├── background_rejection.md
-│   ├── gui_usage.md
-│   └── tensorrt_optimization.md
-│
-├── src/
-│   ├── detection/
-│   │   └── detector.py
-│   │
-│   ├── classification/
-│   │   └── classifier.py
-│   │
-│   ├── gui/
-│   │   └── two_stage_gui.py
-│   │
-│   └── utils/
-│       ├── crop_utils.py
-│       ├── image_utils.py
-│       └── visualization.py
-│
-├── scripts/
-│   ├── train_detector.py
-│   ├── train_classifier.py
-│   ├── mine_background_crops.py
-│   ├── run_gui.py
-│   ├── run_image_demo.py
-│   └── run_video_demo.py
-│
-├── models/
-│   └── README.md
 │
 ├── data/
 │   └── README.md
 │
-├── examples/
-│   ├── sample_images/
-│   └── sample_videos/
+├── models/
+│   └── README.md
 │
-└── outputs/
-    └── .gitkeep
+├── outputs/
+│   └── .gitkeep
+│
+├── scripts/
+│   └── run_gui.py
+│
+└── src/
+    └── gui/
+        ├── __init__.py
+        └── two_stage_gui.py
 ```
 
----
+The repository currently focuses on the public inference and GUI pipeline. Training scripts and restricted datasets are not included because the dataset used in this work contains restricted components obtained through a formal Data Usage Agreement.
 
 ## Model and Dataset Availability
 
