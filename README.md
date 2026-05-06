@@ -416,7 +416,7 @@ The TensorRT FP16 version exceeded the 25 FPS real-time target and reduced total
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/drone-vs-bird-realtime-detection.git
+git clone https://github.com/maliyildirim/drone-vs-bird-realtime-detection.git
 cd drone-vs-bird-realtime-detection
 ```
 
@@ -438,16 +438,37 @@ Activate the environment:
 source .venv/bin/activate
 ```
 
-### 3. Install Requirements
+### 3. Install PyTorch
+
+PyTorch installation depends on your operating system, Python version, GPU, and CUDA version.
+
+For GPU inference, install the PyTorch build compatible with your CUDA version from the official PyTorch installation guide.
+
+Example for CUDA 12.6:
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+```
+
+For CPU-only usage:
+
+```bash
+pip install torch torchvision torchaudio
+```
+
+### 4. Install Project Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-For GPU inference, install the PyTorch version compatible with your CUDA version.
+### 5. Verify Installation
 
----
-
+```bash
+python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
+python -c "from ultralytics import YOLO; print('Ultralytics import successful')"
+python -c "from PySide6.QtWidgets import QApplication; print('PySide6 import successful')"
+```
 ## Usage
 
 ### Model Placement
