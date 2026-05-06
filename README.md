@@ -416,8 +416,8 @@ The TensorRT FP16 version exceeded the 25 FPS real-time target and reduced total
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/drone-vs-bird-two-stage-detection.git
-cd drone-vs-bird-two-stage-detection
+git clone https://github.com/<your-username>/drone-vs-bird-realtime-detection.git
+cd drone-vs-bird-realtime-detection
 ```
 
 ### 2. Create a Virtual Environment
